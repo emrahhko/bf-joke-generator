@@ -151,3 +151,39 @@ li {
     font-family: 'cute font', sans-serif;
     font-size: 2em;
 }
+
+@media (width <= 550px) {
+    .image img {
+        width: 125px;
+        height: 125px;
+    }
+
+    #btn {
+        margin-left: 36%;
+    }
+
+    .category {
+        font-size: 20px;
+    }
+
+    #setup {
+        font-size: 1.5em;
+    }
+
+    #delivery {
+        font-size: 1.5em;
+    }
+
+    .lang {
+        font-size: 1.2em;
+    }
+
+    .safe {
+        font-size: 1.2em;
+    }
+
+    .bottom-img img {
+        width: 60px;
+        height: 60px;
+    }
+}
