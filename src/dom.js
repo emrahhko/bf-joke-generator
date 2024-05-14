@@ -1,5 +1,4 @@
-const dom = {
-    parent: document.getElementById('parent'),
+export const dom = {
+    btn: document.getElementById('btn'),
+    root: document.getElementById('root'),
 };
-
-export default dom;
