@@ -1,0 +1,3 @@
+# Constrains
+
+- Skill limitation.
