@@ -152,6 +152,8 @@ li {
     font-size: 2em;
 }
 
+/* responsive design for smartphone */
+
 @media (width <= 550px) {
     .image img {
         width: 125px;

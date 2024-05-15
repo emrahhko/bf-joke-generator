@@ -1,26 +1,24 @@
-# Image gallery
+# Table of contents
 
-> A simple
-
-## Table of contents
-
-- [General info](#general-info)
-- [Screenshots](#screenshots)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Features](#features)
-- [Status](#status)
-- [Inspiration](#inspiration)
-- [Contact](#contact)
+- [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Code Examples](#code-examples)
+  - [Features](#features)
+  - [Status](#status)
+  - [Inspiration](#inspiration)
+  - [Contact](#contact)
 
 ## General info
 
 > The objective of the project is to practice separation of concern in
-> JavaScript.
+> JavaScript. And working with an API
 
 ## Screenshots
 
-![Example screenshot]()
+![screenshot](./assets/jokinatorScreen.png)
 
 ## Technologies
 
@@ -36,6 +34,10 @@ clone the repo and start using the stop watch.
 ## Code Examples
 
 ```js
+export const createJoke = (jokeData) => {
+    const container = document.createElement('div');
+    container.id = 'joke-container';
+    container.classList.add('joke');
 
 ```
 
@@ -54,8 +56,10 @@ To-do list:
 
 ## Status
 
-Project is: _in progress_
+Project is: _finished_
 
 ## Inspiration
 
 ## Contact
+
+- [Emrah](https://github.com/emrahhko)
